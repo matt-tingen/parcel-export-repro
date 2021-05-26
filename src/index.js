@@ -1,3 +1,3 @@
-import { mergeWith } from '@chakra-ui/utils';
+import { foo } from 'dep-esm';
 
-console.log(mergeWith({}));
+console.log(foo());

@@ -4,10 +4,10 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "postinstall": "cp -r deps/* node_modules"
   },
   "dependencies": {
-    "@chakra-ui/utils": "^1.8.0",
     "parcel": "^2.0.0-nightly.688"
   }
 }
