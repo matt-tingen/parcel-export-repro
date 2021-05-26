@@ -5,7 +5,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "postinstall": "cp -r deps/* node_modules"
+    "postinstall": "cp -r dep-esm node_modules"
   },
   "dependencies": {
     "parcel": "^2.0.0-nightly.688"
