@@ -5,9 +5,11 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
+    "full": "yarn postinstall && rm -rf .parcel-cache && yarn build && npx http-server dist",
     "postinstall": "cp -r dep-esm node_modules"
   },
   "dependencies": {
-    "parcel": "^2.0.0-nightly.688"
+    "lodash.noop": "^3.0.1",
+    "parcel": "^2.0.0-nightly.722"
   }
 }

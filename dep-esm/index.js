@@ -1,2 +1,2 @@
-export const foo = () => 'foo';
+export * from './noop';
 export * from './empty';

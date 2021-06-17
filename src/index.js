@@ -1,3 +1,5 @@
-import { foo } from 'dep-esm';
+import { noop } from 'dep-esm';
 
-console.log(foo());
+noop();
+
+console.log('success');
