@@ -1,5 +1,7 @@
-import { noop } from 'dep-esm';
+import { ColorModeScript } from '@chakra-ui/react';
+import React from 'react';
+import { render } from 'react-dom';
 
-noop();
+const root = document.getElementById('root');
 
-console.log('success');
+render(<ColorModeScript initialColorMode="light" />, root);
